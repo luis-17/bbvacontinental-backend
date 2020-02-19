@@ -1,0 +1,982 @@
+[
+  {
+    "codigo": "010100",
+    "nombre": "Chachapoyas",
+    "departamentoCod": "010000"
+  },
+  {
+    "codigo": "010200",
+    "nombre": "Bagua",
+    "departamentoCod": "010000"
+  },
+  {
+    "codigo": "010300",
+    "nombre": "Bongará",
+    "departamentoCod": "010000"
+  },
+  {
+    "codigo": "010400",
+    "nombre": "Condorcanqui",
+    "departamentoCod": "010000"
+  },
+  {
+    "codigo": "010500",
+    "nombre": "Luya",
+    "departamentoCod": "010000"
+  },
+  {
+    "codigo": "010600",
+    "nombre": "Rodríguez de Mendoza",
+    "departamentoCod": "010000"
+  },
+  {
+    "codigo": "010700",
+    "nombre": "Utcubamba",
+    "departamentoCod": "010000"
+  },
+  {
+    "codigo": "020100",
+    "nombre": "Huaraz",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020200",
+    "nombre": "Aija",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020300",
+    "nombre": "Antonio Raymondi",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020400",
+    "nombre": "Asunción",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020500",
+    "nombre": "Bolognesi",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020600",
+    "nombre": "Carhuaz",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020700",
+    "nombre": "Carlos Fermín Fitzcarrald",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020800",
+    "nombre": "Casma",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "020900",
+    "nombre": "Corongo",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021000",
+    "nombre": "Huari",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021100",
+    "nombre": "Huarmey",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021200",
+    "nombre": "Huaylas",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021300",
+    "nombre": "Mariscal Luzuriaga",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021400",
+    "nombre": "Ocros",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021500",
+    "nombre": "Pallasca",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021600",
+    "nombre": "Pomabamba",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021700",
+    "nombre": "Recuay",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021800",
+    "nombre": "Santa",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "021900",
+    "nombre": "Sihuas",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "022000",
+    "nombre": "Yungay",
+    "departamentoCod": "020000"
+  },
+  {
+    "codigo": "030100",
+    "nombre": "Abancay",
+    "departamentoCod": "030000"
+  },
+  {
+    "codigo": "030200",
+    "nombre": "Andahuaylas",
+    "departamentoCod": "030000"
+  },
+  {
+    "codigo": "030300",
+    "nombre": "Antabamba",
+    "departamentoCod": "030000"
+  },
+  {
+    "codigo": "030400",
+    "nombre": "Aymaraes",
+    "departamentoCod": "030000"
+  },
+  {
+    "codigo": "030500",
+    "nombre": "Cotabambas",
+    "departamentoCod": "030000"
+  },
+  {
+    "codigo": "030600",
+    "nombre": "Chincheros",
+    "departamentoCod": "030000"
+  },
+  {
+    "codigo": "030700",
+    "nombre": "Grau",
+    "departamentoCod": "030000"
+  },
+  {
+    "codigo": "040100",
+    "nombre": "Arequipa",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "040200",
+    "nombre": "Camaná",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "040300",
+    "nombre": "Caravelí",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "040400",
+    "nombre": "Castilla",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "040500",
+    "nombre": "Caylloma",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "040600",
+    "nombre": "Condesuyos",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "040700",
+    "nombre": "Islay",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "040800",
+    "nombre": "La Unión",
+    "departamentoCod": "040000"
+  },
+  {
+    "codigo": "050100",
+    "nombre": "Huamanga",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050200",
+    "nombre": "Cangallo",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050300",
+    "nombre": "Huanca Sancos",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050400",
+    "nombre": "Huanta",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050500",
+    "nombre": "La Mar",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050600",
+    "nombre": "Lucanas",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050700",
+    "nombre": "Parinacochas",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050800",
+    "nombre": "Páucar del Sara Sara",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "050900",
+    "nombre": "Sucre",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "051000",
+    "nombre": "Víctor Fajardo",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "051100",
+    "nombre": "Vilcas Huamán",
+    "departamentoCod": "050000"
+  },
+  {
+    "codigo": "060100",
+    "nombre": "Cajamarca",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060200",
+    "nombre": "Cajabamba",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060300",
+    "nombre": "Celendín",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060400",
+    "nombre": "Chota",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060500",
+    "nombre": "Contumazá",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060600",
+    "nombre": "Cutervo",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060700",
+    "nombre": "Hualgayoc",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060800",
+    "nombre": "Jaén",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "060900",
+    "nombre": "San Ignacio",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "061000",
+    "nombre": "San Marcos",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "061100",
+    "nombre": "San Miguel",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "061200",
+    "nombre": "San Pablo",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "061300",
+    "nombre": "Santa Cruz",
+    "departamentoCod": "060000"
+  },
+  {
+    "codigo": "070100",
+    "nombre": "Prov. Const. del Callao",
+    "departamentoCod": "070000"
+  },
+  {
+    "codigo": "080100",
+    "nombre": "Cusco",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080200",
+    "nombre": "Acomayo",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080300",
+    "nombre": "Anta",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080400",
+    "nombre": "Calca",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080500",
+    "nombre": "Canas",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080600",
+    "nombre": "Canchis",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080700",
+    "nombre": "Chumbivilcas",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080800",
+    "nombre": "Espinar",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "080900",
+    "nombre": "La Convención",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "081000",
+    "nombre": "Paruro",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "081100",
+    "nombre": "Paucartambo",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "081200",
+    "nombre": "Quispicanchi",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "081300",
+    "nombre": "Urubamba",
+    "departamentoCod": "080000"
+  },
+  {
+    "codigo": "090100",
+    "nombre": "Huancavelica",
+    "departamentoCod": "090000"
+  },
+  {
+    "codigo": "090200",
+    "nombre": "Acobamba",
+    "departamentoCod": "090000"
+  },
+  {
+    "codigo": "090300",
+    "nombre": "Angaraes",
+    "departamentoCod": "090000"
+  },
+  {
+    "codigo": "090400",
+    "nombre": "Castrovirreyna",
+    "departamentoCod": "090000"
+  },
+  {
+    "codigo": "090500",
+    "nombre": "Churcampa",
+    "departamentoCod": "090000"
+  },
+  {
+    "codigo": "090600",
+    "nombre": "Huaytará",
+    "departamentoCod": "090000"
+  },
+  {
+    "codigo": "090700",
+    "nombre": "Tayacaja",
+    "departamentoCod": "090000"
+  },
+  {
+    "codigo": "100100",
+    "nombre": "Huánuco",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100200",
+    "nombre": "Ambo",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100300",
+    "nombre": "Dos de Mayo",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100400",
+    "nombre": "Huacaybamba",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100500",
+    "nombre": "Huamalíes",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100600",
+    "nombre": "Leoncio Prado",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100700",
+    "nombre": "Marañón",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100800",
+    "nombre": "Pachitea",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "100900",
+    "nombre": "Puerto Inca",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "101000",
+    "nombre": "Lauricocha",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "101100",
+    "nombre": "Yarowilca",
+    "departamentoCod": "100000"
+  },
+  {
+    "codigo": "110100",
+    "nombre": "Ica",
+    "departamentoCod": "110000"
+  },
+  {
+    "codigo": "110200",
+    "nombre": "Chincha",
+    "departamentoCod": "110000"
+  },
+  {
+    "codigo": "110300",
+    "nombre": "Nasca",
+    "departamentoCod": "110000"
+  },
+  {
+    "codigo": "110400",
+    "nombre": "Palpa",
+    "departamentoCod": "110000"
+  },
+  {
+    "codigo": "110500",
+    "nombre": "Pisco",
+    "departamentoCod": "110000"
+  },
+  {
+    "codigo": "120100",
+    "nombre": "Huancayo",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120200",
+    "nombre": "Concepción",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120300",
+    "nombre": "Chanchamayo",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120400",
+    "nombre": "Jauja",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120500",
+    "nombre": "Junín",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120600",
+    "nombre": "Satipo",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120700",
+    "nombre": "Tarma",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120800",
+    "nombre": "Yauli",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "120900",
+    "nombre": "Chupaca",
+    "departamentoCod": "120000"
+  },
+  {
+    "codigo": "130100",
+    "nombre": "Trujillo",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130200",
+    "nombre": "Ascope",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130300",
+    "nombre": "Bolívar",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130400",
+    "nombre": "Chepén",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130500",
+    "nombre": "Julcán",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130600",
+    "nombre": "Otuzco",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130700",
+    "nombre": "Pacasmayo",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130800",
+    "nombre": "Pataz",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "130900",
+    "nombre": "Sánchez Carrión",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "131000",
+    "nombre": "Santiago de Chuco",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "131100",
+    "nombre": "Gran Chimú",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "131200",
+    "nombre": "Virú",
+    "departamentoCod": "130000"
+  },
+  {
+    "codigo": "140100",
+    "nombre": "Chiclayo",
+    "departamentoCod": "140000"
+  },
+  {
+    "codigo": "140200",
+    "nombre": "Ferreñafe",
+    "departamentoCod": "140000"
+  },
+  {
+    "codigo": "140300",
+    "nombre": "Lambayeque",
+    "departamentoCod": "140000"
+  },
+  {
+    "codigo": "150100",
+    "nombre": "Lima",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150200",
+    "nombre": "Barranca",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150300",
+    "nombre": "Cajatambo",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150400",
+    "nombre": "Canta",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150500",
+    "nombre": "Cañete",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150600",
+    "nombre": "Huaral",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150700",
+    "nombre": "Huarochirí",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150800",
+    "nombre": "Huaura",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "150900",
+    "nombre": "Oyón",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "151000",
+    "nombre": "Yauyos",
+    "departamentoCod": "150000"
+  },
+  {
+    "codigo": "160100",
+    "nombre": "Maynas",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "160200",
+    "nombre": "Alto Amazonas",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "160300",
+    "nombre": "Loreto",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "160400",
+    "nombre": "Mariscal Ramón Castilla",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "160500",
+    "nombre": "Requena",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "160600",
+    "nombre": "Ucayali",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "160700",
+    "nombre": "Datem del Marañón",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "160800",
+    "nombre": "Putumayo",
+    "departamentoCod": "160000"
+  },
+  {
+    "codigo": "170100",
+    "nombre": "Tambopata",
+    "departamentoCod": "170000"
+  },
+  {
+    "codigo": "170200",
+    "nombre": "Manu",
+    "departamentoCod": "170000"
+  },
+  {
+    "codigo": "170300",
+    "nombre": "Tahuamanu",
+    "departamentoCod": "170000"
+  },
+  {
+    "codigo": "180100",
+    "nombre": "Mariscal Nieto",
+    "departamentoCod": "180000"
+  },
+  {
+    "codigo": "180200",
+    "nombre": "General Sánchez Cerro",
+    "departamentoCod": "180000"
+  },
+  {
+    "codigo": "180300",
+    "nombre": "Ilo",
+    "departamentoCod": "180000"
+  },
+  {
+    "codigo": "190100",
+    "nombre": "Pasco",
+    "departamentoCod": "190000"
+  },
+  {
+    "codigo": "190200",
+    "nombre": "Daniel Alcides Carrión",
+    "departamentoCod": "190000"
+  },
+  {
+    "codigo": "190300",
+    "nombre": "Oxapampa",
+    "departamentoCod": "190000"
+  },
+  {
+    "codigo": "200100",
+    "nombre": "Piura",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "200200",
+    "nombre": "Ayabaca",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "200300",
+    "nombre": "Huancabamba",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "200400",
+    "nombre": "Morropón",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "200500",
+    "nombre": "Paita",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "200600",
+    "nombre": "Sullana",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "200700",
+    "nombre": "Talara",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "200800",
+    "nombre": "Sechura",
+    "departamentoCod": "200000"
+  },
+  {
+    "codigo": "210100",
+    "nombre": "Puno",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210200",
+    "nombre": "Azángaro",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210300",
+    "nombre": "Carabaya",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210400",
+    "nombre": "Chucuito",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210500",
+    "nombre": "El Collao",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210600",
+    "nombre": "Huancané",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210700",
+    "nombre": "Lampa",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210800",
+    "nombre": "Melgar",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "210900",
+    "nombre": "Moho",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "211000",
+    "nombre": "San Antonio de Putina",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "211100",
+    "nombre": "San Román",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "211200",
+    "nombre": "Sandia",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "211300",
+    "nombre": "Yunguyo",
+    "departamentoCod": "210000"
+  },
+  {
+    "codigo": "220100",
+    "nombre": "Moyobamba",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220200",
+    "nombre": "Bellavista",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220300",
+    "nombre": "El Dorado",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220400",
+    "nombre": "Huallaga",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220500",
+    "nombre": "Lamas",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220600",
+    "nombre": "Mariscal Cáceres",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220700",
+    "nombre": "Picota",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220800",
+    "nombre": "Rioja",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "220900",
+    "nombre": "San Martín",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "221000",
+    "nombre": "Tocache",
+    "departamentoCod": "220000"
+  },
+  {
+    "codigo": "230100",
+    "nombre": "Tacna",
+    "departamentoCod": "230000"
+  },
+  {
+    "codigo": "230200",
+    "nombre": "Candarave",
+    "departamentoCod": "230000"
+  },
+  {
+    "codigo": "230300",
+    "nombre": "Jorge Basadre",
+    "departamentoCod": "230000"
+  },
+  {
+    "codigo": "230400",
+    "nombre": "Tarata",
+    "departamentoCod": "230000"
+  },
+  {
+    "codigo": "240100",
+    "nombre": "Tumbes",
+    "departamentoCod": "240000"
+  },
+  {
+    "codigo": "240200",
+    "nombre": "Contralmirante Villar",
+    "departamentoCod": "240000"
+  },
+  {
+    "codigo": "240300",
+    "nombre": "Zarumilla",
+    "departamentoCod": "240000"
+  },
+  {
+    "codigo": "250100",
+    "nombre": "Coronel Portillo",
+    "departamentoCod": "250000"
+  },
+  {
+    "codigo": "250200",
+    "nombre": "Atalaya",
+    "departamentoCod": "250000"
+  },
+  {
+    "codigo": "250300",
+    "nombre": "Padre Abad",
+    "departamentoCod": "250000"
+  },
+  {
+    "codigo": "250400",
+    "nombre": "Purús",
+    "departamentoCod": "250000"
+  }
+]

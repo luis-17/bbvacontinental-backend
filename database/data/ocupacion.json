@@ -1,0 +1,302 @@
+[
+  {
+    "codigo": "ABO",
+    "descripcion": "Abogado"
+  },
+  {
+    "codigo": "ADM",
+    "descripcion": "Secretario"
+  },
+  {
+    "codigo": "ADM",
+    "descripcion": "Traductor"
+  },
+  {
+    "codigo": "ADM",
+    "descripcion": "Comunicador"
+  },
+  {
+    "codigo": "ADM",
+    "descripcion": "Marketero"
+  },
+  {
+    "codigo": "225",
+    "descripcion": "Pescador"
+  },
+  {
+    "codigo": "225",
+    "descripcion": "Agricultor"
+  },
+  {
+    "codigo": "105",
+    "descripcion": "Diplomático"
+  },
+  {
+    "codigo": "105",
+    "descripcion": "Político"
+  },
+  {
+    "codigo": "300",
+    "descripcion": "Ama de Casa"
+  },
+  {
+    "codigo": "245",
+    "descripcion": "Vendedor ambulante"
+  },
+  {
+    "codigo": "ING",
+    "descripcion": "Arquitecto"
+  },
+  {
+    "codigo": "ING",
+    "descripcion": "Ingeniero"
+  },
+  {
+    "codigo": "235",
+    "descripcion": "Fotógrafo"
+  },
+  {
+    "codigo": "235",
+    "descripcion": "Músico"
+  },
+  {
+    "codigo": "235",
+    "descripcion": "Diseñador"
+  },
+  {
+    "codigo": "235",
+    "descripcion": "Deportista"
+  },
+  {
+    "codigo": "235",
+    "descripcion": "Artista"
+  },
+  {
+    "codigo": "235",
+    "descripcion": "Chef"
+  },
+  {
+    "codigo": "ASE",
+    "descripcion": "Consultor"
+  },
+  {
+    "codigo": "ASE",
+    "descripcion": "Técnico Informático"
+  },
+  {
+    "codigo": "ASE",
+    "descripcion": "Asesor"
+  },
+  {
+    "codigo": "CPC",
+    "descripcion": "Contador"
+  },
+  {
+    "codigo": "CPC",
+    "descripcion": "Economista"
+  },
+  {
+    "codigo": "315",
+    "descripcion": "Desempleado"
+  },
+  {
+    "codigo": "EJE",
+    "descripcion": "Analista"
+  },
+  {
+    "codigo": "EJE",
+    "descripcion": "Practicante"
+  },
+  {
+    "codigo": "EJE",
+    "descripcion": "Ejecutivo"
+  },
+  {
+    "codigo": "FUN",
+    "descripcion": "Empleado Público"
+  },
+  {
+    "codigo": "110",
+    "descripcion": "Empl. Contratado"
+  },
+  {
+    "codigo": "100",
+    "descripcion": "Empl. Privado"
+  },
+  {
+    "codigo": "ENC",
+    "descripcion": "Capataz"
+  },
+  {
+    "codigo": "R305",
+    "descripcion": "Estudiante"
+  },
+  {
+    "codigo": "FAR",
+    "descripcion": "Farmacéutico"
+  },
+  {
+    "codigo": "GER",
+    "descripcion": "Gerente"
+  },
+  {
+    "codigo": "GER",
+    "descripcion": "Director de empresa"
+  },
+  {
+    "codigo": "115",
+    "descripcion": "Jubilado"
+  },
+  {
+    "codigo": "JUE",
+    "descripcion": "Jueces"
+  },
+  {
+    "codigo": "JUE",
+    "descripcion": "Fiscal"
+  },
+  {
+    "codigo": "JUE",
+    "descripcion": "Catedrático"
+  },
+  {
+    "codigo": "MAN",
+    "descripcion": "Jefe"
+  },
+  {
+    "codigo": "MED",
+    "descripcion": "Psicólogo"
+  },
+  {
+    "codigo": "MED",
+    "descripcion": "Dentista"
+  },
+  {
+    "codigo": "MED",
+    "descripcion": "Doctor"
+  },
+  {
+    "codigo": "MED",
+    "descripcion": "Psiquiatra"
+  },
+  {
+    "codigo": "MED",
+    "descripcion": "Odontólogo"
+  },
+  {
+    "codigo": "120",
+    "descripcion": "Policía (rango inf.)"
+  },
+  {
+    "codigo": "120",
+    "descripcion": "Militar (rango inf.)"
+  },
+  {
+    "codigo": "OFI",
+    "descripcion": "Policía (oficial)"
+  },
+  {
+    "codigo": "OFI",
+    "descripcion": "Militar (oficial)"
+  },
+  {
+    "codigo": "NOT",
+    "descripcion": "Notario"
+  },
+  {
+    "codigo": "NOT",
+    "descripcion": "Procurador"
+  },
+  {
+    "codigo": "OBC",
+    "descripcion": "Conserje"
+  },
+  {
+    "codigo": "OBR",
+    "descripcion": "Obrero"
+  },
+  {
+    "codigo": "210",
+    "descripcion": "Empresario (Pyme)"
+  },
+  {
+    "codigo": "PER",
+    "descripcion": "Periodista"
+  },
+  {
+    "codigo": "PER",
+    "descripcion": "Escritor"
+  },
+  {
+    "codigo": "PRF",
+    "descripcion": "Profesor"
+  },
+  {
+    "codigo": "310",
+    "descripcion": "Religioso"
+  },
+  {
+    "codigo": "230",
+    "descripcion": "Rentista"
+  },
+  {
+    "codigo": "SUB",
+    "descripcion": "Subgerente"
+  },
+  {
+    "codigo": "240",
+    "descripcion": "Chofer"
+  },
+  {
+    "codigo": "240",
+    "descripcion": "Taxista"
+  },
+  {
+    "codigo": "240",
+    "descripcion": "Mecánico"
+  },
+  {
+    "codigo": "240",
+    "descripcion": "Albañil"
+  },
+  {
+    "codigo": "240",
+    "descripcion": "Gasfitero"
+  },
+  {
+    "codigo": "240",
+    "descripcion": "Electricista"
+  },
+  {
+    "codigo": "TEC",
+    "descripcion": "Técn.Superior"
+  },
+  {
+    "codigo": "TEC",
+    "descripcion": "Enfermero"
+  },
+  {
+    "codigo": "VEN",
+    "descripcion": "Vendedor Comisionista"
+  },
+  {
+    "codigo": "VET",
+    "descripcion": "Veterinario"
+  },
+  {
+    "codigo": "IND",
+    "descripcion": "Otros Independ."
+  },
+  {
+    "codigo": "PRO",
+    "descripcion": "Otros Profesionales Independ."
+  },
+  {
+    "codigo": "ASA",
+    "descripcion": "Otros asalariados"
+  },
+  {
+    "codigo": "OTR",
+    "descripcion": "Otros"
+  }
+]

@@ -1,0 +1,138 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+require('dotenv').config();
+require('module-alias/register');
+const path = require('path');
+
+global.__basedir = path.join(__dirname, '/..');
+
+const { registrar } = require('@adonisjs/fold');
+const log4js = require('log4js');
+
+try {
+  require('fs').mkdirSync('./logs');
+} catch (e) {
+  if (e.code !== 'EEXIST') {
+    console.error('Could not set up log directory, error was: ', e);
+    process.exit(1);
+  }
+}
+
+log4js.configure('./config/log4js.json');
+
+const log = log4js.getLogger('startup');
+
+registrar
+  .providers([
+    path.join(__dirname, '../providers/Config/Provider'),
+    path.join(__dirname, '../providers/Database/Provider'),
+    path.join(__dirname, '../providers/Email/Provider'),
+    path.join(__dirname, '../providers/JWT/Provider'),
+    path.join(__dirname, '../providers/Password/Provider'),
+    path.join(__dirname, '../providers/ReCaptcha/Provider'),
+    path.join(__dirname, '../providers/RUC/Provider'),
+    path.join(__dirname, '../providers/S3/Provider'),
+    path.join(__dirname, '../providers/SMS/Provider'),
+    path.join(__dirname, '../providers/BBVA/Provider'),
+    path.join(__dirname, '../providers/Lector/Provider'),
+    path.join(__dirname, '../providers/Equifax/Provider'),
+    path.join(__dirname, '../providers/Sentinel/Provider'),
+    path.join(__dirname, '../providers/PDFKit/Provider'),
+    path.join(__dirname, '../providers/ExcelJS/Provider'),
+  ])
+  .registerAndBoot();
+
+const http = require('http');
+// const debug = require('debug')('backend:server');
+const app = require('../start/app');
+
+const models = use('Database');
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+const port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+/**
+ * Create HTTP server.
+ */
+
+const server = http.createServer(app);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+// models.sequelize.sync().then(() => {
+server.listen(port, () => {
+  log.debug(`Express server listening on port ${server.address().port}`);
+});
+server.on('error', onError);
+server.on('listening', onListening);
+// });
+
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  const port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  const bind = typeof port === 'string'
+    ? `Pipe ${port}`
+    : `Port ${port}`;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      log.error(`${bind} requires elevated privileges`);
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      log.error(`${bind} is already in use`);
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  const addr = server.address();
+  const bind = typeof addr === 'string'
+    ? `pipe ${addr}`
+    : `port ${addr.port}`;
+  log.debug(`Listening on ${bind}`);
+}

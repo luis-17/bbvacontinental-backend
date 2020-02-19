@@ -1,0 +1,18 @@
+const Const = require('../../app/Helpers/Const');
+
+// restricciones para APROBADOR
+const documentoEmpresa = {
+  "alias": "carta_dcto_planilla",
+  "nombre": "CARTA DE DESCUENTO POR PLANILLA",
+};
+
+const APROBADOR = {
+  "perfilId": Const.perfiles.APROBADOR,
+  "documentoEmpresas": [
+    documentoEmpresa,
+  ],
+};
+
+module.exports = {
+  APROBADOR,
+};

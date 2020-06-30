@@ -39,7 +39,7 @@
     "exceljs": "^1.9.1",
     "express": "^4.16.4",
     "express-async-errors": "^3.1.1",
-    "express-jwt": "^5.3.1",
+    "express-jwt": "^6.0.0",
     "express-useragent": "^1.0.12",
     "file-type": "^12.3.0",
     "filter-object": "^3.0.0",

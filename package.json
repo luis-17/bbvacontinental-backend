@@ -72,7 +72,7 @@
     "pdfmake": "^0.1.56",
     "pify": "^4.0.1",
     "pope": "^2.0.2",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "qs": "^6.6.0",
     "querystring": "^0.2.0",
     "rate-limiter-flexible": "^0.23.3",
